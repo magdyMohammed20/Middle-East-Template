@@ -1,0 +1,50 @@
+
+.search-input{
+    background-color: #f1f1f1;
+}
+.search-button{
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    border: 0;
+    background-color: #278CC2;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+}
+
+.maj2-blog .card-text{
+    margin-top: 30px;
+    font-weight: 400 !important;
+    font-size: 20px;
+}
+
+.maj2-user-img{
+    width: 82px;
+    height: 82px;
+}
+
+
+@media(max-width: 768px){
+
+    .maj2-blog h3{
+        font-size: 22px;
+    }
+
+    .maj2-blog .card-text{
+        font-size: 18px !important;
+        margin-top: 18px;
+    }
+    .maj2-user-img{
+        width: 55px;
+        height: 55px;
+    }
+
+    hr+div{
+        /*flex-direction: column-reverse;*/
+    }
+
+    button.float-left{
+        margin: 20px 0;
+    }
+}

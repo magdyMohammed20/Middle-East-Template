@@ -1,0 +1,43 @@
+.notifications button{
+    background-color: transparent;
+}
+
+.notifications button:focus{
+    border: 0;
+    outline: 0;
+}
+
+.notifications button::after{
+    display: none;
+}
+
+.notifications .dropdown-menu{
+    width: 350px;
+    height: 300px;
+    overflow-y: scroll;
+    text-align: right;
+    transform: translate3d(0px, 25px, 0px) !important;
+}
+
+.notifications li a{
+    white-space: inherit;
+}
+
+.notifications li:last-of-type a{
+    background-color: #EEE;
+    color: #278cc2;
+}
+
+.notifications span{
+    top: -17px;
+    background: red;
+    padding: 0px 5px;
+    color: #FFF;
+    right: -5px;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.paid-sceientific-papers .card-img-top{
+    height: 200px;
+}

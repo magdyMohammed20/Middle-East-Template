@@ -1,0 +1,28 @@
+.home3-panner{
+    height: 400px;
+}
+
+.home3-panner h1{
+    font-weight: 700!important;
+    background-color: rgba(0,0,0,.5);
+    font-size: 2em;
+}
+
+.all{
+    background-image: url('../imgs/m1/back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.my-card p{
+    font-size: .8em;
+    margin: 30px 0;
+}
+
+.my-card span{
+    color: #278CC2;
+}
+
+ul.links a{
+    background-color: #278CC2;
+}

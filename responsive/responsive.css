@@ -1,0 +1,272 @@
+.maj1-container img{
+    width: 100% !important;
+}
+.maj1-container .col-12{
+    display: flex;
+    flex-direction: column;       
+    align-items: center;
+}
+
+@media (max-width: 992px){
+    
+    .author-info{
+        flex-direction: column-reverse;
+    }
+
+    .blog-content-con{
+        flex-direction: column-reverse;
+    }
+}
+
+.maj1-container2 img{
+    width: 30% !important;
+}
+
+@media (max-width: 768px){
+    
+    .py-5:not(.footer-info , .c2 , .m1 , .m-s-s){
+        padding: 0 12px !important;
+    }
+    header .container .row *:not(.contactalogin select , option , .notifications){
+        display: none;
+    }
+
+    .contactalogin {
+        max-width: 100% !important;
+        flex: none !important;
+        
+    }
+
+    .contactalogin select{
+        margin-right: auto !important;
+    }
+
+ 
+    nav img{
+        max-height: 55px;
+    }
+    nav .container-fluid{
+        padding: 0 15px  !important
+    }
+
+    .navbar-toggler{
+        border: 1px solid #FFF !important;
+
+    }
+
+    .navbar-toggler:focus{
+        outline: 0;
+    }
+
+    nav .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0; 
+        background-color: #111;
+        padding: 20px 0;
+    }
+
+    ul.navbar-nav{
+        width: 100% !important;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    nav .mr-lg-5{
+        order: -1;
+    }
+
+    nav .navbar-collapse li{
+        margin: 15px 0 !important;
+    }
+
+    nav .logo-container
+    {
+        width: 55%;
+        top: -19px;
+        height: calc(100% + 20px);
+    }
+
+
+
+    .img-container-distinct{
+        width: 82%;
+        right: -60px !important;
+        height: calc(100% + 10px);
+    }
+    .img-container-distinct img{
+        max-height: 50px;
+    }
+
+    nav .logo-container a{
+        display: flex;
+        align-items: center;
+    }
+
+    nav .navbar-collapse button{
+        box-shadow: none;
+    }
+
+    nav .navbar-collapse button:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .home3-panner h1{
+        margin: 0 auto;
+        width: 75% !important;
+    }
+
+    p , li{
+        font-size: 1.2em !important;
+    }
+
+    .last-footer ul + div{
+        text-align: center !important;
+        padding: 15px 0;
+    }
+
+    .course-list{
+        padding: 0 12px !important;
+    }
+
+    .blog .card h2{
+        font-size: 1.8em;
+    }
+
+    .blog .card button{
+        padding: 10px 12px !important;
+        width: 150px;
+    }
+
+    .blog .card img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .pagination a{
+        margin: 0 !important;
+    }
+    .pagination li:first-child a span,
+    .pagination li:last-child a span{
+        display: none !important;
+    }
+
+    .pagination li:first-child a,
+    .pagination li:last-child a{
+        padding: 13px !important;
+    }
+
+    .pagination a i{
+        margin: 0 !important;
+    }
+
+
+    .blog1-img{
+        width: 90% !important;
+        height: 200px;
+    }
+
+    .about-magazine p.m-about-p,
+    .about-magazine p.m1-p{
+        width: 75% !important
+    }
+    .maj1-container img{
+        width: 30% !important;
+    }
+
+    .maj1-container p{
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    .maj3-con{
+        width: 100% !important;
+    }
+    
+    .send3 .form-group i{
+        top: 72%
+    }
+    .img-container-distinct{
+        width: 63% !important;
+    }
+
+    .underline span:last-child{
+        width: 45%;
+    }
+}
+
+@media (min-width: 769px){
+    .blog-content-con{
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .course-list{
+        margin: 0 !important;
+    }
+
+    .footer-info .about{
+        max-width: 100% !important;
+        flex: none;
+    }
+}
+
+@media(max-width: 576px){
+
+    nav .navbar-nav li.mr-lg-5{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .navbar-nav li.mr-lg-5 button{
+        margin: 15px 30px;
+        box-shadow: none;
+    }
+
+
+    
+
+    nav .navbar-nav li.mr-lg-5 button:nth-child(2){
+        margin: 0 !important;
+    }
+
+    .last-footer ul{
+        flex-direction: column;
+        align-items: end;
+        flex-direction: column-reverse;
+    }
+
+    .last-footer ul li:last-child{
+        margin-right: .5rem !important;
+    }
+
+    .last-footer ul li{
+        margin-top: 10px;
+    }
+
+    .owl-carousel .owl-item:not(.owl-carousel2 .owl-item){
+        /*width: 300px !important;*/
+        /*margin: 8px !important;*/
+      }
+
+      .owl-stage-outer:not(.owl-carousel2 .owl-stage-outer){
+          height: 560px;
+      }
+
+      .feature-courses{
+          padding: 15px 0 !important;
+      }
+}
+
+
+.navbar-toggler-icon{
+    filter: brightness(0) invert(1);
+}
+
+nav .logo-container:not(.img-container-distinct) img{
+    margin-top: 15px !important;
+}

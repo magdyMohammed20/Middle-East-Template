@@ -1,0 +1,14 @@
+.form-group:not(.without-padding) input{
+    padding-right: 40px;
+}
+
+.form-group i{
+    right: 14px;
+    top: 66%;
+    color: #278cc2;
+}
+
+select.select-search{
+    direction: rtl;
+    height: 50px !important;
+}

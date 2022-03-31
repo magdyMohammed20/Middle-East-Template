@@ -1,0 +1,72 @@
+.home3-panner{
+    height: 400px;
+}
+
+.home3-panner h1,
+.home3-panner h3{
+    font-weight: 700!important;
+    background-color: rgba(0,0,0,.5);
+    font-size: 40px;
+}
+
+.home3-panner .diff-h1{
+    width: 40%;
+}
+.magazine-services p{
+    line-height: 1.5;
+}
+
+.m-s-p{
+    font-weight: 700 !important;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 200% !important;
+}
+.blog1-content .img-container{
+    height: 500px;
+}
+
+@media(max-width: 992px){
+    .home3-panner .container h1,
+    .home3-panner .container h3{
+        font-size: 22px;
+        padding: 18px !important;
+        width: 90% !important;
+    }
+
+    .blog1-content .img-container{
+        height: 200px;
+    }
+
+    .blog1-content p{
+        width: 100% !important;
+        line-height: 37.4px !important;
+    }
+
+    .blog1-content h2{
+        font-size: 27px !important;
+    }
+
+    .m-s-p{
+        line-height: 180%;
+        font-size: 1em !important;
+    }   
+
+    .maj3-con2 .row > div h2{
+        font-size: 22px !important;
+    }
+
+    .maj3-con2 .row > div p{
+        font-size: 18px !important;
+        margin-top: 7px !important;
+    }
+
+    .maj3-con2 .row > div button{
+        margin-top: 13px !important;
+    }
+
+    .maj3-con2 .row > div .flex-row-reverse:first-of-type{
+        align-self: flex-start;
+        margin-left: 15px;
+    }
+}

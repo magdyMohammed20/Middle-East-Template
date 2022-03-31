@@ -1,0 +1,45 @@
+.about-magazine{
+    background-image: url(../imgs/m1/back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.magazine-services{
+    background-color: #f1f1f1;
+}
+
+.claint-con h4{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.claint-con li{
+    line-height: 180%;
+}
+
+.c1-h{
+    font-weight: 700;
+    line-height: 180%;
+    font-size: 28px;
+}
+
+
+.about-magazine p{
+    line-height: 180%;
+    font-size: 24px;
+}
+
+@media(max-width: 576px){
+    .claint-con h4{
+        font-size: 28px;
+    }
+
+    .c1-h{
+        font-size: 22px;
+    }
+
+    .about-magazine .h5{
+        font-size: 18px !important;
+        margin: 25px 0 !important;
+    }
+}

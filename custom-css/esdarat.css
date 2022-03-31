@@ -1,0 +1,59 @@
+.esdarat-container{
+    background-image: url('../imgs/m1/back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.esdar{
+   
+    border: 1px solid #278CC2;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.esdar::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    left: 0;
+    height: 100%;
+    border: 1px solid #278CC2;
+    border-radius: 7px;
+    z-index: -1;
+}
+
+.esdar a{
+    background-color: #278CC2;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #CCC;
+}
+
+.esdar-detail{
+    transform: translateX(45px);
+}
+
+.esdar-detail p{
+    font-size: 18px !important;
+}
+
+.esdar-detail small{
+    font-size: 14px;
+}
+
+.esdarat-container .col-12{
+    height: 122px;
+}
+
+
+@media(max-width: 576px){
+    .esdar a{
+        width: 45px;
+        height: 45px;
+        display: none !important;
+    }
+
+    .esdar-detail{
+        transform: translateX(0);
+    }
+}
